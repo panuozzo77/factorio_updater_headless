@@ -7,7 +7,7 @@ After=network.target
 [Service]
 Type=forking
 User=criadmin
-ExecStart=/home/criadmin/scripts/tmux/start_tmux.sh
+ExecStart=.../<your_directory>/start_tmux.sh
 Restart=on-failure
 #save factorio server data
 ExecStop=/bin/bash -c 'tmux send-keys -t mysession:1 "/quit" C-m'

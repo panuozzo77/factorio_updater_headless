@@ -1,3 +1,5 @@
+# it should go into:
+# /etc/systemd/system/factorio-updater.timer
 [Unit]
 Description=Timer for Factorio Updater Service
 

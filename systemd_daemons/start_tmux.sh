@@ -9,7 +9,7 @@ tmux send-keys -t mysession:0 'cd ~' C-m
 
 # Create the factorio window (index 1)
 tmux new-window -t mysession:1 -n factorio
-tmux send-keys -t mysession:1 'cd /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10 && ./start.sh' C-m
+tmux send-keys -t mysession:1 'cd .../factorio_root_folder && ./start.sh' C-m
 
 # Select the first window (bash)
 tmux select-window -t mysession:0
