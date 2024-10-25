@@ -1,0 +1,76 @@
+   0.000 2024-10-24 19:21:32; Factorio 2.0.10 (build 79578, linux64, headless, space-age)
+   0.030 Operating system: Linux (Ubuntu 22.04)
+   0.030 Program arguments: "/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/bin/x64/factorio" "--start-server" "/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip" 
+   0.030 Config path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/config/config.ini
+   0.030 Read data path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/data
+   0.030 Write data path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio [220274/239281MB]
+   0.030 Binaries path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/bin
+   0.047 System info: [CPU: Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, 4 cores, RAM: 23923 MB]
+   0.047 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> SDL_VIDEODRIVER=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.048 Running in headless mode
+   0.048 Audio is disabled
+   0.079 Info ModManager.cpp:434: FeatureFlag expansion-shaders = false
+   0.079 Info ModManager.cpp:434: FeatureFlag freezing = false
+   0.079 Info ModManager.cpp:434: FeatureFlag quality = false
+   0.079 Info ModManager.cpp:434: FeatureFlag rail-bridges = false
+   0.079 Info ModManager.cpp:434: FeatureFlag segmented-units = false
+   0.079 Info ModManager.cpp:434: FeatureFlag space-travel = false
+   0.079 Info ModManager.cpp:434: FeatureFlag spoiling = false
+   0.081 Loading mod settings RateCalculator 3.3.2 (settings.lua)
+   0.082 Loading mod core 0.0.0 (data.lua)
+   0.097 Loading mod base 2.0.10 (data.lua)
+   0.245 Loading mod flib 0.16.0 (data.lua)
+   0.255 Loading mod RateCalculator 3.3.2 (data.lua)
+   0.264 Loading mod base 2.0.10 (data-updates.lua)
+   0.326 Checksum for core: 2896921138
+   0.326 Checksum of base: 3513392431
+   0.326 Checksum of flib: 3595694985
+   0.326 Checksum of RateCalculator: 2922552808
+   0.506 Prototype list checksum: 4268802335
+   0.534 Info PlayerData.cpp:66: Local player-data.json available, timestamp 1729790436
+   0.534 Info PlayerData.cpp:73: Cloud player-data.json unavailable
+   0.535 Factorio initialised
+   0.535 Info ServerSynchronizer.cpp:20: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.535 Info ServerMultiplayerManager.cpp:803: updateTick(18446744073709551615) changing state from(Ready) to(PreparedToHostGame)
+   0.535 Info ServerMultiplayerManager.cpp:803: updateTick(18446744073709551615) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.536 Loading map /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip: 8434709 bytes.
+   0.546 Loading level.dat: 23149274 bytes.
+   0.552 Info Scenario.cpp:178: Map version 2.0.9-1
+   1.162 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.371 Loading script.dat: 18470 bytes.
+   1.375 Checksum for script __level__/control.lua: 3780939624
+   1.380 Checksum for script __RateCalculator__/control.lua: 908969604
+   1.386 Info UDPSocket.cpp:32: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   1.386 Hosting game at IP ADDR:({0.0.0.0:34197})
+   1.386 Info HttpSharedState.cpp:55: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   1.623 Info AuthServerConnector.cpp:108: Obtained serverPadlock for serverHash (k0UkzSmjeVI5JDC4umcTlkjX744ZGn0c) from the auth server.
+   1.623 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(CreatingGame) to(InGame)
+   6.507 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:35941}))
+   6.507 Refusing connection for address (IP ADDR:({192.168.1.73:35941})), username (panuozzo77). UserVerificationMissing
+   6.807 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:57780}))
+   6.807 Refusing connection for address (IP ADDR:({192.168.1.73:57780})), username (panuozzo77). ModsMismatch
+  28.390 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:33371}))
+  28.390 Refusing connection for address (IP ADDR:({192.168.1.73:33371})), username (panuozzo77). UserVerificationMissing
+  28.657 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:43224}))
+  28.657 Refusing connection for address (IP ADDR:({192.168.1.73:43224})), username (panuozzo77). ModsMismatch
+  46.174 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:42727}))
+  46.174 Refusing connection for address (IP ADDR:({192.168.1.73:42727})), username (panuozzo77). UserVerificationMissing
+  46.624 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:38097}))
+  46.624 Refusing connection for address (IP ADDR:({192.168.1.73:38097})), username (panuozzo77). ModsMismatch
+  70.040 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:53720}))
+  70.040 Refusing connection for address (IP ADDR:({192.168.1.73:53720})), username (panuozzo77). UserVerificationMissing
+  70.707 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:32782}))
+  70.707 Refusing connection for address (IP ADDR:({192.168.1.73:32782})), username (panuozzo77). ModsMismatch
+  98.923 Quitting: remote-quit.
+  98.923 Info MainLoop.cpp:435: Saving map as /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip
+  98.970 Info MainLoop.cpp:446: Saving progress: 0.016625%
+  99.058 Info MainLoop.cpp:446: Saving progress: 100.000000%
+  99.158 Info ServerMultiplayerManager.cpp:119: Disconnecting multiplayer connection.
+  99.158 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(InGame) to(DisconnectingScheduled)
+  99.192 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(DisconnectingScheduled) to(Disconnecting)
+  99.225 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(Disconnecting) to(Disconnected)
+  99.225 Info ServerMultiplayerManager.cpp:146: Quitting multiplayer connection.
+  99.225 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(Disconnected) to(Closed)
+  99.485 Info UDPSocket.cpp:233: Closing socket
+  99.485 Info UDPSocket.cpp:263: Socket closed
+  99.538 Goodbye

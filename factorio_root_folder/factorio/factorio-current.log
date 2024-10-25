@@ -1,0 +1,68 @@
+   0.000 2024-10-24 19:25:32; Factorio 2.0.10 (build 79578, linux64, headless, space-age)
+   0.030 Operating system: Linux (Ubuntu 22.04)
+   0.030 Program arguments: "/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/bin/x64/factorio" "--start-server" "/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip" 
+   0.030 Config path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/config/config.ini
+   0.030 Read data path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/data
+   0.030 Write data path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio [220274/239281MB]
+   0.030 Binaries path: /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/bin
+   0.047 System info: [CPU: Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, 4 cores, RAM: 23923 MB]
+   0.047 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> SDL_VIDEODRIVER=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.047 Running in headless mode
+   0.047 Audio is disabled
+   0.079 Info ModManager.cpp:434: FeatureFlag expansion-shaders = false
+   0.079 Info ModManager.cpp:434: FeatureFlag freezing = false
+   0.079 Info ModManager.cpp:434: FeatureFlag quality = false
+   0.079 Info ModManager.cpp:434: FeatureFlag rail-bridges = false
+   0.079 Info ModManager.cpp:434: FeatureFlag segmented-units = false
+   0.079 Info ModManager.cpp:434: FeatureFlag space-travel = false
+   0.079 Info ModManager.cpp:434: FeatureFlag spoiling = false
+   0.081 Loading mod settings RateCalculator 3.3.2 (settings.lua)
+   0.083 Loading mod core 0.0.0 (data.lua)
+   0.097 Loading mod base 2.0.10 (data.lua)
+   0.244 Loading mod flib 0.16.0 (data.lua)
+   0.254 Loading mod RateCalculator 3.3.2 (data.lua)
+   0.262 Loading mod base 2.0.10 (data-updates.lua)
+   0.324 Checksum for core: 2896921138
+   0.324 Checksum of base: 3513392431
+   0.324 Checksum of flib: 3595694985
+   0.324 Checksum of RateCalculator: 2922552808
+   0.505 Prototype list checksum: 4268802335
+   0.533 Info PlayerData.cpp:66: Local player-data.json available, timestamp 1729790592
+   0.533 Info PlayerData.cpp:73: Cloud player-data.json unavailable
+   0.534 Factorio initialised
+   0.534 Info ServerSynchronizer.cpp:20: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.534 Info ServerMultiplayerManager.cpp:803: updateTick(18446744073709551615) changing state from(Ready) to(PreparedToHostGame)
+   0.534 Info ServerMultiplayerManager.cpp:803: updateTick(18446744073709551615) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.534 Loading map /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip: 8434632 bytes.
+   0.545 Loading level.dat: 23149296 bytes.
+   0.551 Info Scenario.cpp:178: Map version 2.0.10-1
+   1.017 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.018 Loading script.dat: 18470 bytes.
+   1.021 Checksum for script __level__/control.lua: 3780939624
+   1.027 Checksum for script __RateCalculator__/control.lua: 908969604
+   1.032 Info UDPSocket.cpp:32: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   1.032 Hosting game at IP ADDR:({0.0.0.0:34197})
+   1.032 Info HttpSharedState.cpp:55: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   1.435 Info AuthServerConnector.cpp:108: Obtained serverPadlock for serverHash (KY7dUNy2lDGOLrhCVnAhfEHfuFD56a2F) from the auth server.
+   1.435 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(CreatingGame) to(InGame)
+   4.552 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:42737}))
+   4.552 Refusing connection for address (IP ADDR:({192.168.1.73:42737})), username (panuozzo77). UserVerificationMissing
+   5.052 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.73:46879}))
+   5.052 Info ServerRouter.cpp:465: Replying to connectionRequest for address(IP ADDR:({192.168.1.73:46879})).
+   5.055 Info ServerSynchronizer.cpp:594: nextHeartbeatSequenceNumber(216) adding peer(1)
+   5.073 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(InGame) to(InGameSavingMap)
+   5.085 Info ServerMultiplayerManager.cpp:971: updateTick(6012447) received stateChanged peerID(1) oldState(Ready) newState(ConnectedWaitingForMap)
+   5.319 Info ServerMultiplayerManager.cpp:1030: UpdateTick(6012447) Serving map(/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/temp/mp-save-0.zip) for peer(1) size(8434944) auxiliary(85) crc(489844603)
+   5.319 Info ServerMultiplayerManager.cpp:803: updateTick(6012447) changing state from(InGameSavingMap) to(InGame)
+   5.385 Info ServerMultiplayerManager.cpp:971: updateTick(6012447) received stateChanged peerID(1) oldState(ConnectedWaitingForMap) newState(ConnectedDownloadingMap)
+   6.552 Info ServerMultiplayerManager.cpp:971: updateTick(6012447) received stateChanged peerID(1) oldState(ConnectedDownloadingMap) newState(ConnectedLoadingMap)
+   6.886 Info ServerMultiplayerManager.cpp:971: updateTick(6012447) received stateChanged peerID(1) oldState(ConnectedLoadingMap) newState(TryingToCatchUp)
+   6.886 Info ServerMultiplayerManager.cpp:971: updateTick(6012447) received stateChanged peerID(1) oldState(TryingToCatchUp) newState(WaitingForCommandToStartSendingTickClosures)
+   6.902 Info GameActionHandler.cpp:4296: UpdateTick (6012447) processed PlayerJoinGame peerID(1) playerIndex(1) mode(connect) 
+   6.935 Info ServerMultiplayerManager.cpp:971: updateTick(6012449) received stateChanged peerID(1) oldState(WaitingForCommandToStartSendingTickClosures) newState(InGame)
+  22.569 Info ServerMultiplayerManager.cpp:1083: Disconnect notification for peer (1)
+  22.569 Info ServerMultiplayerManager.cpp:971: updateTick(6013387) received stateChanged peerID(1) oldState(InGame) newState(DisconnectScheduled)
+  22.569 Info ServerSynchronizer.cpp:613: nextHeartbeatSequenceNumber(1268) removing peer(1).
+  23.569 Info ServerMultiplayerManager.cpp:1228: Auto saving map as /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip
+  23.585 Info AppManager.cpp:412: Saving game as /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio_old_1/saves/my-save.zip
+  23.837 Info AppManagerStates.cpp:2050: Saving finished
