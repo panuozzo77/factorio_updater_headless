@@ -1,0 +1,16 @@
+# it should go into:
+# /etc/systemd/system/tmux-session.service
+[Unit]
+Description=Start Tmux Session at Boot
+After=network.target
+
+[Service]
+Type=forking
+User=criadmin
+ExecStart=/home/criadmin/scripts/tmux/start_tmux.sh
+Restart=on-failure
+#save factorio server data
+ExecStop=/bin/bash -c 'tmux send-keys -t mysession:1 "/quit" C-m'
+
+[Install]
+WantedBy=multi-user.target
