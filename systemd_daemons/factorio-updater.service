@@ -1,0 +1,12 @@
+[Unit]
+Description=Factorio Updater Service
+After=tmux-session.service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/updater.sh
+User=criadmin
+WorkingDirectory=/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10
+
+[Install]
+WantedBy=multi-user.target
