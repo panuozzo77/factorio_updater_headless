@@ -20,7 +20,7 @@ your pc
 
 ## What you need to do
 ### Prerequisites:
-- A Linux server with **tmux** and **systemd** installed.
+- A Linux server with **tmux**, **curl**, **wget**, **rsync** and **systemd** installed.
 - An active Factorio headless server installation.
 - Basic understanding of using bash, tmux, and systemd.
 
@@ -41,12 +41,13 @@ your pc
     - Even if it's "PERFECT" I don't know if you'd like how it works, so change it if you wish to.
     - The [updater.sh](/factorio_root_folder/updater.sh) script 1) checks for new Factorio versions, 2) downloads updates if available, and 3) restarts the server. Ensure the paths in the script are correct, especially the following variables:
 ```bash
-CHECKSUM_URL="https://www.factorio.com/download/sha256sums/"
-LOCAL_CHECKSUM_FILE="factorio_sha256sums.txt"
-INSTALLED_TAR="factorio-installed.tar.xz"
-FACTORIO_DIR="factorio"
-TMUX_SESSION="mysession"
-FACTORIO_WINDOW="factorio"
+LATEST_RELEASES_URL="https://factorio.com/api/latest-releases"  # URL for latest releases
+INSTALLED_TAR="factorio-installed.tar.xz"  # Path to installed tar.xz
+FACTORIO_DIR="factorio"  # Directory containing Factorio files
+LOG_FILE="logfile.log"  # Change this to your desired log file path
+
+TMUX_SESSION="mysession"  # Name of your tmux session
+FACTORIO_WINDOW="factorio" # Name of the tmux window running Factorio
 ```
 4. Create and Configure [tmux-session.service](/systemd_daemons/tmux_session.service)
     - This service will start the tmux session automatically at boot. In the tmux-session.service file, make sure to update <your_directory> in ExecStart to point to the actual path where start_tmux.sh resides.

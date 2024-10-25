@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # Define variables
-CHECKSUM_URL="https://www.factorio.com/download/sha256sums/" # URL containings all sha256 of every downloadable version
-LOCAL_CHECKSUM_FILE="factorio_sha256sums.txt" # Place to save the download
-# PREVIOUS_CHECKSUM_FILE="previous_sha256.txt" # Previous attempts, not used anymore
-# CURRENT_VERSION_FILE="factorio/factorio-current.log"  # Path to current version log, not used anymore
+LATEST_RELEASES_URL="https://factorio.com/api/latest-releases"  # URL for latest releases
 INSTALLED_TAR="factorio-installed.tar.xz"  # Path to installed tar.xz
 FACTORIO_DIR="factorio"  # Directory containing Factorio files
 LOG_FILE="logfile.log"  # Change this to your desired log file path
@@ -38,15 +35,12 @@ stop_factorio() {
     fi
 }
 
-# Download the latest SHA256 sums
-wget -q "$CHECKSUM_URL" -O "$LOCAL_CHECKSUM_FILE"
-
-# Extract the latest headless version from the checksum file
-LATEST_VERSION=$(grep "factorio-headless_linux_" "$LOCAL_CHECKSUM_FILE" | head -n 1 | awk -F'_' '{print $3}' | sed 's/.tar.xz//')
+# Fetch the latest version information from the API
+LATEST_VERSION=$(curl -s "$LATEST_RELEASES_URL" | jq -r '.stable.headless')
 
 # Check if we found a version
 if [ -z "$LATEST_VERSION" ]; then
-    log "No headless version found in the checksum file."
+    log "No headless version found in the API response."
     exit 1
 fi
 
@@ -63,9 +57,6 @@ if [ "$LATEST_VERSION" != "$CURRENT_VERSION" ]; then
     
     # Stop the Factorio server before updating
     stop_factorio
-    
-    # Update previous checksum file with the latest version (optional)
-    echo "$LATEST_VERSION" > "$PREVIOUS_CHECKSUM_FILE"
     
     log "Updating Factorio server..."
     
