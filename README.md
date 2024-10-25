@@ -34,9 +34,8 @@ your pc
 #!/bin/bash
 # Start the Factorio server
 ../factorio_root_folder/factorio/bin/x64/factorio --start-server ../factorio_root_folder/saves/my-save.zip
-
 ```
-    - This script is responsible for launching the Factorio server. Make sure to update the path in the script to point to your Factorio installation. Adjust the --start-server with the arguments you like
+- This script is responsible for launching the Factorio server. Make sure to update the path in the script to point to your Factorio installation. Adjust the --start-server with the arguments you like
 3. Configure the updater.sh Script
 
 The updater.sh script 1) checks for new Factorio versions, 2) downloads updates if available, and 3) restarts the server. Ensure the paths in the script are correct, especially the following variables:
