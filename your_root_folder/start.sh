@@ -1,0 +1,3 @@
+#your argument here
+# mine is just for example:
+/home/criadmin/mountedDrives/SSD/factorio_vanilla_2024_10/factorio/bin/x64/factorio --start-server /home/criadmin...
