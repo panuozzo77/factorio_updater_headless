@@ -84,7 +84,7 @@ check_and_update_factorio() {
         rm -rf "$TEMP_DIR"
         
         # Command to run the server (update this path as necessary)
-        tmux send-keys -t "$TMUX_SESSION:$FACTORIO_WINDOW" './start.sh'
+        tmux send-keys -t "$TMUX_SESSION:$FACTORIO_WINDOW" './start.sh' C-m
         log "Update Process Completed."
     else
         log "You are using the latest version ($CURRENT_VERSION). No update needed."
